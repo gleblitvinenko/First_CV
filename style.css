@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+body{
+    font-family:'DynaPuff';
+    background: rgb(248, 225, 225);
+}
+.container{
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.header{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid  black;
+    border-top: none;
+    border-radius:20% ;
+    
+}
+
+.photo{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;  
+}
+
+.header p{
+    padding-top:10px ;
+    margin: 0px;
+    text-align: center;
+}
+
+.about{
+    margin:20px auto 20px auto;
+    text-align: center;
+}
+
+.age , .country , .specialty{
+    margin: 0 0 10px 0;
+}
+
+.specialty{
+    margin: 0;
+}
+.what{
+    font-size: 20px;
+    margin: 0 0 15px 0 ;    
+}
+
+.socials{
+    text-align: center;
+}
+
+.inst , .telegram , .github{
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.socials p:last-child{
+    margin: 0 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+a:hover{
+    color:red; 
+}
+
+a:active{
+    color:deeppink;
+}
+
