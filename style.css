@@ -84,3 +84,75 @@ a:active{
     color:deeppink;
 }
 
+h2{
+    text-align: center;
+    margin: 20px 0 20px 0; 
+}
+
+.feedback_img {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback_img img{
+    border-radius: 25%;  
+    width: 50%;
+    height: 50%;  
+
+}
+
+form {
+    text-align: center;
+    margin-bottom: 50px;
+     
+}
+
+.name p, .phone p, .message p  {
+    margin-bottom: 5px;   
+
+}
+
+.name input, .phone input{
+    border: none;
+    border-radius: 10px;
+    width:100%;
+    background-color:rgb(190, 255, 255);
+    
+    
+}
+
+.name input:hover, .phone input:hover, .message textarea:hover, form button:hover{
+    outline:3px solid red ;
+}
+
+.name input:active, .phone input:active, .message textarea:active, form button:active{
+    outline:3px solid red ;
+}
+
+.name input:focus, .phone input:focus{
+    outline:3px solid red ;    
+}
+
+.message textarea{
+    border:none;
+    padding: 0;
+    width:100%;
+    resize:none;
+    border-radius:10px;
+    background-color:rgb(190, 255, 255);
+    outline: none;
+}
+
+
+form button{
+    width: 100%;
+    padding: 0;
+    border: none;
+    background-color:rgb(190, 255, 255);
+    height: 30px;
+    border-radius:10px ;
+    font-family:'DynaPuff';
+
+}
+
+
